@@ -50,6 +50,10 @@ Tell git you're done with changes to those files for now.
 ```
 git add .
 ```
+Optionally, add one/less than all files
+```
+git add file1.something file2.something
+```
 
 ### Step 7: 
 Commit those changes. This tells git that the files you just added are really done and can now be grouped into one commit (usually a part of a feature or something like that).
