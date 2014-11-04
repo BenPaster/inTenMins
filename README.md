@@ -1,8 +1,6 @@
 # Learn CSS In 10 Minutes
 Because it's really not that hard. This does assume some minimal, confused knowledge.
 
-**This doc will use the notation `<ANY></ANY>`. `<ANY>` can represent any html tag div, p, span, input, select, textarea etc, etc.**
-
 ### Including a separate CSS file
 Including `<style></style>` tags in the HTML file's `<head>` section usually isn't the answer.
 
