@@ -20,8 +20,10 @@ selector:psuedo-class {
 
 ### Selectors
 ```
-#theNameOfYourHTMLElement
-.theNameOfYourHTMLElement
+p
+div
+#theIdOfYourHTMLElement
+.theClassOfYourHTMLElement
 ```
 
 ### Psuedo Classes
@@ -36,6 +38,19 @@ That you'll use anytime soon.
 
 ### Properties 
 This is how you actually add style to the stuff on your website. [This list](http://www.w3schools.com/cssref/) is from w3schools which has some pretty mediocre stuff a lot of the time, but this list looks pretty good for getting an idea of what properties you can use.
+
+### When to use an element name
+```html
+<p>Paragraph 1</p>
+<p>Paragraph 2</p>
+```
+
+```css
+p {
+  color: red;
+}
+```
+Paragraph 1 and Paragraph 2 will be colored red
 
 ### When to use a dot (class selector)
 ```html
@@ -83,5 +98,23 @@ This is really useful because you can define a "base class" and then make modifi
 
 .smile.red { 
   background-color: #df4e4e;
+}
+```
+
+### Mix and Match selectors
+```css
+/* All paragraphs with the class .blue will be colored blue */
+p.blue {
+  color: blue;
+}
+
+/* All paragraphs with the id #blue will be colored blue */
+p#blue {
+  color: blue;
+}
+
+/* You can do the same thing with Ids and classes  */
+#text.blue {
+  color: blue;
 }
 ```
