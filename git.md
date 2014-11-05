@@ -1,6 +1,6 @@
 # Learn Git (Command Line) In 10 Mins
 
-Git tracks changes on a file. It's similar to the way Google Docs tracks revision history. If you've never seen Google Docs revision history, check that out before reading this. This will make more sense.
+Git is version control software that tracks changes on a file. It's similar to the way Google Docs tracks revision history. If you've never seen Google Docs revision history, check that out before reading this. Google Docs revision history is literally what Git does for software projects.
 
 This is a Mac / Linux tutorial. If you have Windows you need to download [this](http://msysgit.github.io/) and launch git bash and then do the same stuff.
 
