@@ -66,3 +66,34 @@ See your commit
 ```
 git log
 ```
+
+## Pushing Code to a Remote Location
+While GitHub will be the example, this is not a GitHub tutorial. GitHub has a lot of features that this does not cover.
+
+### Step 0:
+If you used someone else's code, there is a 99% chance you can simply do this:
+```
+git push origin
+```
+But it might not be called origin, maybe... so check:
+```
+git remote
+```
+
+Aaaanddd, you're done. Stop reading. woo.
+
+### Step 1: Add Remote Repository
+```
+git remote add origin https://username@github.com/username/repo.git
+```
+You can find the full URL here on GitHub:
+<img src="http://on.simpler.im/15VRX+" height="200px" />
+
+### Step 2: Send your code up to the remote repo
+```
+git push origin
+```
+### Step 3: Get your code again later
+```
+git pull origin
+```
