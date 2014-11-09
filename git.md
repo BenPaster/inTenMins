@@ -86,7 +86,15 @@ Aaaanddd, you're done. Stop reading. woo.
 ```
 git remote add origin https://username@github.com/username/repo.git
 ```
+Let's break apart this command:
+```
+git [tell git this is a remote repository] [add a new remote repo] [what to call this remote repo] [URL of git repo]
+```
+
+What is origin? It's just the name. You could call it potatoes and it would work the same, but origin is a name often used, especially in tutorials. It just means like the origin of the code, the original location, you get the idea. 
+
 You can find the full URL here on GitHub:
+
 <img src="http://on.simpler.im/15VRX+" height="200px" />
 
 ### Step 2: Send your code up to the remote repo
